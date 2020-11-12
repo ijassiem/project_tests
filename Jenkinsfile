@@ -9,12 +9,13 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                sh "python --version" 
+                sh "python -m unittest test" 
             }
         }
         stage('Deploy') { 
             steps {
-                sh "ls -l" 
+                sh "ls -l"
+                sh "pwd"
             }
         }
     }
