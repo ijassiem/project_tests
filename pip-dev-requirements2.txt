@@ -45,7 +45,7 @@ pillow
 pyasn1
 pycrypto
 pylint
-pyOpenSSL
+#pyOpenSSL
 PyPDF2
 pyserial
 python-dotenv
