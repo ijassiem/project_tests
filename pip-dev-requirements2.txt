@@ -1,0 +1,70 @@
+alabaster
+ansicolors
+argcomplete
+bitstring
+bokeh
+breathe==0.7.0
+chainmap
+coloredlogs
+coverage
+crypto
+cryptography
+dpkt
+fabric
+flake8
+flake8-html
+gitpython
+h5py
+idna>=2.5
+iniparse
+ipdb
+ipynose
+ipython
+jenkinsapi
+jinja2>=2.9.0
+katcp
+lazy-import>=0.2.2
+lxml
+matplotlib==2.0.2
+memory_profiler
+mock
+mpld3
+ndg-httpsclient
+nose
+nose-htmloutput
+nose-testconfig
+nosexcover
+ntplib
+numpy==1.15.0
+pandas
+parameterized
+paramiko==2.4
+pep8
+pexpect
+pillow
+pyasn1
+pycrypto
+pylint
+pyOpenSSL
+PyPDF2
+pyserial
+python-dotenv
+requests[security]
+retrying
+scipy==1.1.0
+sh
+sphinx
+sphinxcontrib-napoleon
+termcolor
+tornado==4.3
+traceback2
+trollius
+
+git+https://github.com/ska-sa/nosekatreport.git@karoocbf#egg=nosekatreport
+
+# Uncomment below if not installing these packages from a local source
+# git+https://github.com/ska-sa/casperfpga#egg=casperfpga
+# git+https://github.com/ska-sa/corr2#egg=corr2
+# git+https://github.com/ska-sa/katcp-python#egg=katcp
+# git+https://github.com/ska-sa/PySPEAD#egg=spead
+# git+https://katpull:katpull4git@github.com/ska-sa/katpoint.git#egg=katpoint
