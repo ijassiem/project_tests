@@ -3,7 +3,7 @@ ansicolors
 argcomplete
 bitstring
 bokeh
-breathe==0.7.0
+#breathe==0.7.0
 chainmap
 coloredlogs
 coverage
