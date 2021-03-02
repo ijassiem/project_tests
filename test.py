@@ -6,7 +6,7 @@ from my_sum import sum
 class TestSum(unittest.TestCase):
     def test_list_int(self):
         """
-        Test that it can sum a list of integers
+        Test that it can sum a list of integers.
         """
         data = [1, 2, 3]
         result = sum(data)
@@ -14,7 +14,7 @@ class TestSum(unittest.TestCase):
 
     def test_list_fraction(self):
         """
-        Test that it can sum a list of fractions
+        Test that it can sum a list of fractions.
         """
         data = [Fraction(1,4), Fraction(1,4), Fraction(1,2)]
         result = sum(data)
