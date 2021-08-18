@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Stage 1') { 
             steps {
-                sh "date
+                sh "date"
             }
         }
         stage('Stage 2') { 
