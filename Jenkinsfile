@@ -1,18 +1,21 @@
 pipeline {
-    agent any 
+    agent {
+        docker {
+            image 'ubuntu'
+        }
+    }
     stages {
-        stage('clone repo') { 
+        stage('Stage 1') { 
             steps {
-                sh "rm -rf project_tests"
-                sh "git clone https://github.com/ijassiem/project_tests.git"
+                sh "date
             }
         }
-        stage('Test') { 
+        stage('Stage 2') { 
             steps {
                 sh "python -m unittest -v test" 
             }
         }
-        stage('Deploy') { 
+        stage('Stage 3') { 
             steps {
                 sh "ls -l"
                 sh "pwd"
