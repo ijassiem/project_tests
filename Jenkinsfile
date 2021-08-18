@@ -12,7 +12,8 @@ pipeline {
         }
         stage('Stage 2') { 
             steps {
-                sh "python -m unittest -v test" 
+//                 sh "python -m unittest -v test"
+                sh "who"
             }
         }
         stage('Stage 3') { 
