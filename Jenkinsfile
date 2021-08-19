@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'ubuntu' args '--gpus=all --network=host -u=root --ulimit=memlock=-1 --device=/dev/infiniband/rdma_cm  --device=/dev/infiniband/uverbs0'}
+        docker { image 'ubuntu' args '-u=root'}
     }
     stages {
         stage('Stage 1') { 
