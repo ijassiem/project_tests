@@ -11,7 +11,6 @@ pipeline {
         stage('Stage 2') { 
             steps {
                 sh "cat /etc/*release"
-                sh "python --version"
             }
         }
         stage('Stage 3') { 
