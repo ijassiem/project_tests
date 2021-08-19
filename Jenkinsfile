@@ -17,8 +17,8 @@ pipeline {
             steps {
                 sh "ls -l"
                 sh "pwd"
-                sh "docker image ls"
-                sh "docker ps"
+//                 sh "docker image ls"
+//                 sh "docker ps"
             }
         }
     }
