@@ -10,13 +10,16 @@ pipeline {
         }
         stage('Stage 2') { 
             steps {
-                sh "who"
+                sh "lsb_release -a"
+                sh "python --version"
             }
         }
         stage('Stage 3') { 
             steps {
                 sh "ls -l"
                 sh "pwd"
+                sh "docker image ls"
+                sh "docker ps"
             }
         }
     }
