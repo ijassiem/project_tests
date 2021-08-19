@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Stage 2') { 
             steps {
-                sh "lsb_release -a"
+                sh "cat /etc/*release"
                 sh "python --version"
             }
         }
