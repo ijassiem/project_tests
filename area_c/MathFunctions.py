@@ -8,3 +8,7 @@ def areaCircle(radius):
 def areaSquare(length):
     area = length*length
     return area
+
+def areaTriangle(length, height):
+    area = 0.5*length*height
+    return area
