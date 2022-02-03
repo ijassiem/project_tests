@@ -12,3 +12,7 @@ def areaSquare(length):
 def areaTriangle(length, height):
     area = 0.5*length*height
     return area
+
+def volumeCube(length, width, height):
+    volume = length*width*height
+    return volume
