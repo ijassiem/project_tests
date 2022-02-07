@@ -17,6 +17,7 @@ pipeline {
             steps {
                 sh "ls -l"
                 sh "pwd"
+                sh "whoami"
 //                 sh "docker image ls"
 //                 sh "docker ps"
             }
