@@ -20,6 +20,7 @@ pipeline {
                 sh "whoami"
                 sh "hostname"
                 sh "ps"
+                sh "ip addr"
 //                 sh "docker image ls"
 //                 sh "docker ps"
             }
