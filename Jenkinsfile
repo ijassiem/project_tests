@@ -18,6 +18,7 @@ pipeline {
                 sh "ls -l"
                 sh "pwd"
                 sh "whoami"
+                sh "hostname"
 //                 sh "docker image ls"
 //                 sh "docker ps"
             }
