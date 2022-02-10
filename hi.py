@@ -7,5 +7,6 @@ y = 2
 z = 1
 sum = a + b + x + y + z
 product = a * b * x * y *z
+average = sum/5
 print("Hello world test")
 ################################################################
