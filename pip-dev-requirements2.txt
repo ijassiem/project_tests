@@ -35,7 +35,7 @@ nose-htmloutput
 nose-testconfig
 nosexcover
 ntplib
-numpy==1.15.0
+numpy==1.22.0
 pandas
 parameterized
 paramiko==2.4
