@@ -22,6 +22,11 @@ pipeline {
                 sh "ps"
 //                 sh "docker image ls"
 //                 sh "docker ps"
+                script {
+                    branch = env.BRANCH_NAME
+                    //tag = (branch == "main") ? "latest" : branch
+                    echo "The branch is ${branch}"
+                }
             }
         }
     }
