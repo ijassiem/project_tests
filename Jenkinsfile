@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker { image 'ubuntu'}
-    }
+   }
     stages {
         stage('Stage 1') { 
             steps {
@@ -28,6 +28,7 @@ pipeline {
                     echo "The branch is ${branch}"
                     echo "The commit is ${GIT_COMMIT}"
                 }
+                cleanWs()
             }
         }
     }
