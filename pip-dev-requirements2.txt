@@ -56,7 +56,7 @@ sh
 sphinx
 sphinxcontrib-napoleon
 termcolor
-tornado==4.3
+tornado==6.3.2
 traceback2
 trollius
 
